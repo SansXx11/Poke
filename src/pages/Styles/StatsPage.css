@@ -1,0 +1,53 @@
+/* Styles/StatsPage.css */
+
+/* Overall styling */
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.poke__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff; /* White background with drop shadow */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+.poke__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Optional for a Pokémon-like feel */
+  color: #e05f25; /* Orange-red color for a classic Pokémon vibe */
+}
+
+/* Name of Pokémon in a different color */
+.poke__stat .poke__name {  /* Targets name within stat item */
+  color: #4a148c; /* Deep purple for type names */
+}
+
+/* Stat list styling */
+.poke__stats-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.poke__stat {  /* Style for individual stat items */
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Colon for stats */
+.poke__stat::before {
+  content: ": ";
+  margin-right: 5px;
+}

@@ -1,0 +1,19 @@
+.Name__trainer {
+    text-align: center;
+  }
+  
+  .Name,
+  .Begin {
+    display: inline-block;
+  }
+  .Name{
+    width: 500px;
+    height: 50px;
+  }
+  .Begin {
+    width: 150px;
+    height: 50px;
+    background-color: #D93F3F;
+    color: white;
+  }
+  
